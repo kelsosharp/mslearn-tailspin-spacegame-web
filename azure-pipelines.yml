@@ -38,6 +38,6 @@
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker Registry Service Connection'
-    repository: 'python-dockerfile'
+    repository: 'kelsosharp/python-dockerfile'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
